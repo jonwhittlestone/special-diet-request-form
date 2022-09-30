@@ -1,10 +1,12 @@
-import { useState } from "react";
 import "./App.css";
+import DietForm from "./components/DietForm";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className="App">Hello World</div>;
+  return (
+    <div className="App">
+      <DietForm />
+    </div>
+  );
 }
 
 export default App;
